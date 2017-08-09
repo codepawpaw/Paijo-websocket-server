@@ -2,12 +2,17 @@
 
 1. install ruby
 
-2. Run the app
+3. run this command
+```bash
+bundle install
+```
+
+4. Run the app
 ```bash
 nohup bundle exec ruby app.rb &> /dev/null &
 ```
 
-3. Checking the server 
+5. Checking the server 
 
 Run this command in your browser console.
 ```bash
