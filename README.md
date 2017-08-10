@@ -25,7 +25,7 @@ nohup bundle exec ruby app.rb &> /dev/null &
 
 Run this command in your browser console.
 ```bash
-var ws = new WebSocket("ws://localhost:8080")
+var ws = new WebSocket("ws://localhost:8081")
 ```
 
 ### Using Docker
