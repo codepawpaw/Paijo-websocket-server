@@ -1,0 +1,6 @@
+websocket:
+  build: .
+  ports:
+    - "8081:8081"
+  container_name: paijo_websocket
+  restart: always
