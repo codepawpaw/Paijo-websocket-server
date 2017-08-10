@@ -10,8 +10,8 @@ redis = Redis.new
 
 
 EM.run {
-  
-  EM::WebSocket.run(:host => "0.0.0.0", :port => "8080") do |ws|
+
+  EM::WebSocket.run(:host => "0.0.0.0", :port => "8081") do |ws|
     ws.onopen { |handshake|
       puts "WebSocket connection open"
       ws.send "Hello Client, you connected to #{handshake.path}"
